@@ -7,6 +7,8 @@ tags:
   - [programming,cpp, test]
 toc: true
 date: 2020-11-10
+last_modified_at: 2020-11-10
+sitemap : true
 ---
 
 # CHAR
