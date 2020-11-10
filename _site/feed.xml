@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-10T16:56:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Satellite Mode</title><subtitle>This is my CS blog</subtitle><author><name>satelliteheart29</name></author><entry><title type="html">finally</title><link href="http://localhost:4000/diary/first-post/" rel="alternate" type="text/html" title="finally" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>http://localhost:4000/diary/first-post</id><content type="html" xml:base="http://localhost:4000/diary/first-post/">&lt;p&gt;거의 3시간에 걸쳐 github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-10T17:17:10+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Satellite Mode</title><subtitle>This is my CS blog</subtitle><author><name>satelliteheart29</name></author><entry><title type="html">finally</title><link href="http://localhost:4000/diary/first-post/" rel="alternate" type="text/html" title="finally" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>http://localhost:4000/diary/first-post</id><content type="html" xml:base="http://localhost:4000/diary/first-post/">&lt;p&gt;github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..&lt;/p&gt;
 
-&lt;p&gt;GEM이 신기하네.&lt;/p&gt;
+&lt;p&gt;GEM이 신기하다.&lt;/p&gt;
 
 &lt;p&gt;참고 링크&lt;/p&gt;
 
@@ -11,6 +11,9 @@
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://hahafamilia.github.io/howto/jekyll-github-mistakes-blog/&quot;&gt;CSS - SCSS 관련 설정하기&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://danggai.github.io/tags/#minimal-mistakes&quot;&gt;프로필 관련 설정&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;앞으로 더 참고할만한 링크가 있으면 올리도록 해야겠다.&lt;/p&gt;</content><author><name>satelliteheart29</name></author><category term="diary" /><summary type="html">거의 3시간에 걸쳐 github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다.</summary></entry></feed>
+&lt;p&gt;앞으로 더 참고할만한 링크가 있으면 올리도록 해야겠다.&lt;/p&gt;</content><author><name>satelliteheart29</name></author><category term="diary" /><summary type="html">github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..</summary></entry></feed>
