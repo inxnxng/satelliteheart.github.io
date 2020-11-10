@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>finally - Satellite Mode</title>
-<meta name="description" content="github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..">
+<!-- begin _includes/seo.html --><title>C++ : char 정리 - Satellite Mode</title>
+<meta name="description" content="C++ : 헷갈리는 것 위주 정리">
 
 
   <meta name="author" content="satelliteheart29">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Satellite Mode">
-<meta property="og:title" content="finally">
-<meta property="og:url" content="http://localhost:4000/diary/first-post/">
+<meta property="og:title" content="C++ : char 정리">
+<meta property="og:url" content="http://localhost:4000/category/cpp-programming-language/">
 
 
-  <meta property="og:description" content="github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..">
+  <meta property="og:description" content="C++ : 헷갈리는 것 위주 정리">
 
 
 
@@ -45,7 +45,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/diary/first-post/">
+<link rel="canonical" href="http://localhost:4000/category/cpp-programming-language/">
 
 
 
@@ -287,15 +287,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="finally">
-    <meta itemprop="description" content="github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..">
+    <meta itemprop="headline" content="C++ : char 정리">
+    <meta itemprop="description" content="C++ : 헷갈리는 것 위주 정리">
     <meta itemprop="datePublished" content="2020-11-10T00:00:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">finally
+          <h1 id="page-title" class="page__title" itemprop="headline">C++ : char 정리
 </h1>
           
 
@@ -319,25 +319,124 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..</p>
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#char">CHAR</a>
+    <ul>
+      <li><a href="#1">1</a></li>
+      <li><a href="#2">2</a></li>
+      <li><a href="#3">3</a></li>
+    </ul>
+  </li>
+</ul>
 
-<p>GEM이 신기하다.</p>
+            </nav>
+          </aside>
+        
+        <h1 id="char">CHAR</h1>
 
-<p>참고 링크</p>
+<h2 id="1">1</h2>
+<p><a href="https://igotit.tistory.com/entry/char-const-char-char-const">참조</a></p>
+
+<ul>
+  <li>char* v;
+    <ul>
+      <li>v는 문자, 문자열이 저장된 메모리의 첫 주소를 저장할 수 있는 포인터 변수</li>
+      <li>char* v = “문자열 상수 1”; 초기화 했어도 코드 중에는 언제든 변경 가능</li>
+    </ul>
+  </li>
+  <li>const char* v;
+    <ul>
+      <li>v는 다시 문자열이 저장된 메모리의 첫주소를 저장할 수 있는 포인터 변수. <strong>v 주소 메모리의 내용은 변경 불가</strong> 즉 v는 <strong>상수 문자열의 포인터변수</strong></li>
+      <li>const의 대상이 v자체가 아니므로 v가 가리키는 주소는 변경 가능함</li>
+      <li>const char* v = “문자열 상수 1”;로 초기화함. 이 때, v = “문자열 상수 2”; 는 가능 // *v = “문자열 상수 2”는 불가능. 이건 v 주소 메모리의 값을 변경하려 한 것이므로</li>
+    </ul>
+  </li>
+  <li>char* const v;
+    <ul>
+      <li>v는 문자열이 저장된 메모리의 첫주소를 저장할 수 있는 포인터 변수</li>
+      <li>초기화할 때 한번 지정된 문자열 메모리 주소 변경 못함.</li>
+      <li>char* const v = “문자열 상수1”;로 초기화 했을 때, v = “문자열 상수2”는 불가능하단 소리임</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="2">2</h2>
+<p><a href="https://m.blog.naver.com/jsky10503/221131378623">참조1</a>
+<a href="https://m.blog.naver.com/jsky10503/221133942782">참조2</a>
+<a href="https://m.blog.naver.com/jsky10503/221134770777">참조3</a></p>
+
+<p>char형 포인터(문자열 표현 방법)</p>
+
+<p><code class="language-plaintext highlighter-rouge">char str[20] = "Good Morning!";</code> 이는 배열을 기반으로 하는 변수 형태의 문자열 선언. 변수라고 하는 이유는 문자열의 일부를 변경할 수 있기 때문. 문자열 전체를 저장하는 배열.
+[G][o]…[!][\0]</p>
+
+<p><code class="language-plaintext highlighter-rouge">char* str2 = "This is string";</code>으로도 선언 가능. 이는 포인터를 기반으로 문자열을 선언한 것. 이렇게 선언하면 메모리 공간에 문자열 This is string이 저장되고 문자열의 첫번째 문자 T의 주소값이 반환된다. 그리고 이 반환 값은 포인터 변수 str2에 저장된다.
+<strong>char형 포인터로 선언하면 첫번째 문자의 주소값이 저장된다</strong>
+str2—————&gt;[<strong>T</strong>his is string\0]</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center">char형 배열</th>
+      <th style="text-align: center">char형 포인터</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">가리키는 위치 변경</td>
+      <td style="text-align: center">불가능</td>
+      <td style="text-align: center">가능</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">문자열 내용 변경</td>
+      <td style="text-align: center">가능</td>
+      <td style="text-align: center">불가능</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>printf 함수는 문자열을 전달 받지 않고 문자열의 주소 값을 전달 받는 함수임</em></p>
+
+<p><code class="language-plaintext highlighter-rouge">char* strArr[3] = {"apple","banana","cinamon"};</code>으로 선언 시
+<code class="language-plaintext highlighter-rouge">strArr[1]</code>은 “banana”임.</p>
+
+<h2 id="3">3</h2>
+<p><a href="https://mk28.tistory.com/127">참조</a></p>
 
 <ol>
   <li>
-    <p><a href="https://pnurep.github.io/blogging/github-page-minimal-mistakes/#">minimal mistakes를 이용해 page 만들기</a></p>
+    <p>생성
+char : char arr[size];
+string : string s;</p>
   </li>
   <li>
-    <p><a href="https://hahafamilia.github.io/howto/jekyll-github-mistakes-blog/">CSS - SCSS 관련 설정하기</a></p>
+    <p>표준 입력 받아오기
+char : 공백, 개행 무시. for문 돌려서 일일이 받아와도 되지만 배열 전체로 받아와도 된다
+string : 공백, 개행 무시 <code class="language-plaintext highlighter-rouge">#include &lt;string&gt;</code> 필요</p>
   </li>
   <li>
-    <p><a href="https://danggai.github.io/tags/#minimal-mistakes">프로필 관련 설정</a></p>
+    <p>문자열 개수
+char : strlen(const char*);    <code class="language-plaintext highlighter-rouge">int size = strlen(arr);</code>
+string : length();      <code class="language-plaintext highlighter-rouge">int size = s.length();</code></p>
+  </li>
+  <li>
+    <p>표준 입력 읽어오기
+char :</p>
+    <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">cin</span><span class="p">.</span><span class="n">getline</span><span class="p">(</span><span class="n">_Elem</span> <span class="o">*</span><span class="n">_Str</span><span class="p">,</span> <span class="n">streamsize</span> <span class="n">_count</span><span class="p">,</span> <span class="n">_Elem</span> <span class="n">_Delim</span> <span class="o">=</span> <span class="sc">'\n'</span><span class="p">)</span>
+         <span class="c1">//변수 주소, 최대 입력 가능 문자수, 종결 문자(default는 '\n')</span>
+<span class="n">cin</span><span class="p">.</span><span class="n">getline</span><span class="p">(</span><span class="n">arr</span><span class="p">,</span><span class="n">SIZE</span><span class="p">);</span>
+</code></pre></div>    </div>
   </li>
 </ol>
 
-<p>앞으로 더 참고할만한 링크가 있으면 올리도록 해야겠다.</p>
+<p>string :</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span><span class="n">s</span><span class="p">);</span>
+       <span class="c1">//위의 cin.getline과 비슷한 맥락, 그러나 최대 입력 가능 문자수를 입력하지 않아도 된다.</span>
+</code></pre></div></div>
 
         
       </section>
@@ -345,6 +444,33 @@
       <footer class="page__meta">
         
         
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#cpp" class="page__taxonomy-item" rel="tag">cpp</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#programming" class="page__taxonomy-item" rel="tag">programming</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#test" class="page__taxonomy-item" rel="tag">test</a>
+    
+    </span>
+  </p>
+
+
 
 
   
@@ -360,7 +486,7 @@
     
       
       
-      <a href="/categories/#diary" class="page__taxonomy-item" rel="tag">diary</a>
+      <a href="/categories/#category" class="page__taxonomy-item" rel="tag">category</a>
     
     </span>
   </p>
@@ -377,11 +503,11 @@
       
   <nav class="pagination">
     
-      <a href="/category/cpp-programming-language/" class="pagination--pager" title="C++ : char 정리
-">Previous</a>
+      <a href="#" class="pagination--pager disabled">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="/diary/first-post/" class="pagination--pager" title="finally
+">Next</a>
     
   </nav>
 
@@ -409,7 +535,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/category/cpp-programming-language/" rel="permalink">C++ : char 정리
+        <a href="/diary/first-post/" rel="permalink">finally
 </a>
       
     </h2>
@@ -430,7 +556,8 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">C++ : 헷갈리는 것 위주 정리
+    <p class="archive__item-excerpt" itemprop="description">github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..
+
 </p>
   </article>
 </div>

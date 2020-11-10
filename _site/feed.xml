@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-10T17:17:10+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Satellite Mode</title><subtitle>This is my CS blog</subtitle><author><name>satelliteheart29</name></author><entry><title type="html">finally</title><link href="http://localhost:4000/diary/first-post/" rel="alternate" type="text/html" title="finally" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>http://localhost:4000/diary/first-post</id><content type="html" xml:base="http://localhost:4000/diary/first-post/">&lt;p&gt;github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-10T18:52:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Satellite Mode</title><subtitle>This is my CS blog</subtitle><author><name>satelliteheart29</name></author><entry><title type="html">finally</title><link href="http://localhost:4000/diary/first-post/" rel="alternate" type="text/html" title="finally" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>http://localhost:4000/diary/first-post</id><content type="html" xml:base="http://localhost:4000/diary/first-post/">&lt;p&gt;github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..&lt;/p&gt;
 
 &lt;p&gt;GEM이 신기하다.&lt;/p&gt;
 
@@ -16,4 +16,105 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;앞으로 더 참고할만한 링크가 있으면 올리도록 해야겠다.&lt;/p&gt;</content><author><name>satelliteheart29</name></author><category term="diary" /><summary type="html">github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..</summary></entry></feed>
+&lt;p&gt;앞으로 더 참고할만한 링크가 있으면 올리도록 해야겠다.&lt;/p&gt;</content><author><name>satelliteheart29</name></author><category term="diary" /><summary type="html">github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..</summary></entry><entry><title type="html">C++ : char 정리</title><link href="http://localhost:4000/category/cpp-programming-language/" rel="alternate" type="text/html" title="C++ : char 정리" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>http://localhost:4000/category/cpp-programming-language</id><content type="html" xml:base="http://localhost:4000/category/cpp-programming-language/">&lt;h1 id=&quot;char&quot;&gt;CHAR&lt;/h1&gt;
+
+&lt;h2 id=&quot;1&quot;&gt;1&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://igotit.tistory.com/entry/char-const-char-char-const&quot;&gt;참조&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;char* v;
+    &lt;ul&gt;
+      &lt;li&gt;v는 문자, 문자열이 저장된 메모리의 첫 주소를 저장할 수 있는 포인터 변수&lt;/li&gt;
+      &lt;li&gt;char* v = “문자열 상수 1”; 초기화 했어도 코드 중에는 언제든 변경 가능&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;const char* v;
+    &lt;ul&gt;
+      &lt;li&gt;v는 다시 문자열이 저장된 메모리의 첫주소를 저장할 수 있는 포인터 변수. &lt;strong&gt;v 주소 메모리의 내용은 변경 불가&lt;/strong&gt; 즉 v는 &lt;strong&gt;상수 문자열의 포인터변수&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;const의 대상이 v자체가 아니므로 v가 가리키는 주소는 변경 가능함&lt;/li&gt;
+      &lt;li&gt;const char* v = “문자열 상수 1”;로 초기화함. 이 때, v = “문자열 상수 2”; 는 가능 // *v = “문자열 상수 2”는 불가능. 이건 v 주소 메모리의 값을 변경하려 한 것이므로&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;char* const v;
+    &lt;ul&gt;
+      &lt;li&gt;v는 문자열이 저장된 메모리의 첫주소를 저장할 수 있는 포인터 변수&lt;/li&gt;
+      &lt;li&gt;초기화할 때 한번 지정된 문자열 메모리 주소 변경 못함.&lt;/li&gt;
+      &lt;li&gt;char* const v = “문자열 상수1”;로 초기화 했을 때, v = “문자열 상수2”는 불가능하단 소리임&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2&quot;&gt;2&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://m.blog.naver.com/jsky10503/221131378623&quot;&gt;참조1&lt;/a&gt;
+&lt;a href=&quot;https://m.blog.naver.com/jsky10503/221133942782&quot;&gt;참조2&lt;/a&gt;
+&lt;a href=&quot;https://m.blog.naver.com/jsky10503/221134770777&quot;&gt;참조3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;char형 포인터(문자열 표현 방법)&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;char str[20] = &quot;Good Morning!&quot;;&lt;/code&gt; 이는 배열을 기반으로 하는 변수 형태의 문자열 선언. 변수라고 하는 이유는 문자열의 일부를 변경할 수 있기 때문. 문자열 전체를 저장하는 배열.
+[G][o]…[!][\0]&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;char* str2 = &quot;This is string&quot;;&lt;/code&gt;으로도 선언 가능. 이는 포인터를 기반으로 문자열을 선언한 것. 이렇게 선언하면 메모리 공간에 문자열 This is string이 저장되고 문자열의 첫번째 문자 T의 주소값이 반환된다. 그리고 이 반환 값은 포인터 변수 str2에 저장된다.
+&lt;strong&gt;char형 포인터로 선언하면 첫번째 문자의 주소값이 저장된다&lt;/strong&gt;
+str2—————&amp;gt;[&lt;strong&gt;T&lt;/strong&gt;his is string\0]&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;char형 배열&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;char형 포인터&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;가리키는 위치 변경&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;불가능&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;가능&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;문자열 내용 변경&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;가능&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;불가능&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;printf 함수는 문자열을 전달 받지 않고 문자열의 주소 값을 전달 받는 함수임&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;char* strArr[3] = {&quot;apple&quot;,&quot;banana&quot;,&quot;cinamon&quot;};&lt;/code&gt;으로 선언 시
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;strArr[1]&lt;/code&gt;은 “banana”임.&lt;/p&gt;
+
+&lt;h2 id=&quot;3&quot;&gt;3&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://mk28.tistory.com/127&quot;&gt;참조&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;생성
+char : char arr[size];
+string : string s;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;표준 입력 받아오기
+char : 공백, 개행 무시. for문 돌려서 일일이 받아와도 되지만 배열 전체로 받아와도 된다
+string : 공백, 개행 무시 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#include &amp;lt;string&amp;gt;&lt;/code&gt; 필요&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;문자열 개수
+char : strlen(const char*);    &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int size = strlen(arr);&lt;/code&gt;
+string : length();      &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int size = s.length();&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;표준 입력 읽어오기
+char :&lt;/p&gt;
+    &lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;cin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_Elem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_Str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;streamsize&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_Elem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_Delim&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'\n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+         &lt;span class=&quot;c1&quot;&gt;//변수 주소, 최대 입력 가능 문자수, 종결 문자(default는 '\n')&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;cin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SIZE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;string :&lt;/p&gt;
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;getline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;c1&quot;&gt;//위의 cin.getline과 비슷한 맥락, 그러나 최대 입력 가능 문자수를 입력하지 않아도 된다.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>satelliteheart29</name></author><category term="category" /><category term="programming" /><category term="cpp" /><category term="test" /><summary type="html">C++ : 헷갈리는 것 위주 정리</summary></entry></feed>
