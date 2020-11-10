@@ -81,6 +81,10 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
+    tzinfo (2.0.3)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2020.4)
+      tzinfo (>= 1.0.0)
 
 PLATFORMS
   x64-mingw32
@@ -89,6 +93,8 @@ DEPENDENCIES
   jekyll (~> 3.5)
   kramdown-parser-gfm
   minimal-mistakes-jekyll
+  tzinfo
+  tzinfo-data
 
 BUNDLED WITH
    2.1.4

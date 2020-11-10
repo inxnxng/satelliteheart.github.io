@@ -5,8 +5,8 @@
     <description>This is my CS blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Nov 2020 20:41:48 +0900</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2020 20:41:48 +0900</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2020 13:04:36 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2020 13:04:36 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -31,11 +31,11 @@
 
 &lt;ul&gt;
   &lt;li&gt;카테고리 수정&lt;/li&gt;
-  &lt;li&gt;sitemap.xml 설정&lt;/li&gt;
+  &lt;li&gt;sitemap.xml 설정 -&amp;gt; 이거는 등록해놓고 며칠 걸린다고 한다&lt;/li&gt;
   &lt;li&gt;이미지 파일 넣기 확인&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 10 Nov 2020 00:00:00 +0900</pubDate>
+        <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/diary/first-post/</link>
         <guid isPermaLink="true">http://localhost:4000/diary/first-post/</guid>
         
@@ -45,7 +45,7 @@
       </item>
     
       <item>
-        <title>C++ : char 정리</title>
+        <title>C++ char 정리</title>
         <description>&lt;h1 id=&quot;char&quot;&gt;CHAR&lt;/h1&gt;
 
 &lt;h2 id=&quot;1&quot;&gt;1&lt;/h2&gt;
@@ -149,18 +149,18 @@ char :&lt;/p&gt;
        &lt;span class=&quot;c1&quot;&gt;//위의 cin.getline과 비슷한 맥락, 그러나 최대 입력 가능 문자수를 입력하지 않아도 된다.&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Tue, 10 Nov 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/category/cpp-programming-language/</link>
-        <guid isPermaLink="true">http://localhost:4000/category/cpp-programming-language/</guid>
+        <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/studying/cpp-programming-language/</link>
+        <guid isPermaLink="true">http://localhost:4000/studying/cpp-programming-language/</guid>
         
-        <category>programming</category>
+        <category>studying</category>
         
         <category>cpp</category>
         
         <category>test</category>
         
         
-        <category>category</category>
+        <category>studying</category>
         
       </item>
     

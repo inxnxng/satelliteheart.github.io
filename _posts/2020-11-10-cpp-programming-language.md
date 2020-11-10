@@ -1,14 +1,14 @@
 ---
-title:  "C++ : char 정리"
+title:  "C++ char 정리"
 excerpt: "C++ : 헷갈리는 것 위주 정리"
 categories:
-  - category
+  - studying
 tags:
-  - [programming,cpp, test]
+  - [studying, cpp, test]
 toc: true
+toc_sticky: true
 date: 2020-11-10
 last_modified_at: 2020-11-10
-sitemap : true
 ---
 
 # CHAR
