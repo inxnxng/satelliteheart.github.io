@@ -1,23 +1,20 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2017-10-20 08:26:28 -0400
-categories: jekyll update
+
+title: "finally"
+date: 2020-11-10
+categories: diary
+
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+거의 3시간에 걸쳐 github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다.
 
-Jekyll also offers powerful support for code snippets:
+GEM이 신기하네.
 
-​```python
-def print_hi(name):
-  print("Hello, ", name)
-  
-print_hi('Everyone')
-​```
+참고 링크
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+1. [minimal mistakes를 이용해 page 만들기](https://pnurep.github.io/blogging/github-page-minimal-mistakes/#)
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+2. [CSS - SCSS 관련 설정하기](https://hahafamilia.github.io/howto/jekyll-github-mistakes-blog/)
+
+앞으로 더 참고할만한 링크가 있으면 올리도록 해야겠다.
+
