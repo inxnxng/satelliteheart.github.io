@@ -287,14 +287,3 @@ defaults:
       related: true
       sidebar :
         nav : "docs"
-
-      
-urls:
-  - title: "diary"
-    url: /diary
-
-  - title: "studying"
-    url: /studying
-    
-  - title: "programming"
-    url: /programming

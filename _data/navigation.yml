@@ -1,22 +1,18 @@
 # main links
+main :
+  - title : diary
+    url : /diary/
+  - title : studying
+    url : /studying/
+
 docs:
   - title : LIFE 
     children: 
-      - title: "category"
-        url: /categories/
       - title: "diary"
         url: /diary/
-
-
   - title : CS
     children:  
       - title: "studying"
         url: /studying/
       - title: "programming"
         url: /programming/
-
-main :
-  - title : diary
-    url : /diary
-  - title : studying
-    url : /studying
