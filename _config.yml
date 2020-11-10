@@ -265,6 +265,9 @@ compress_html:
   ignore:
     envs: development
 
+category_dir: category/
+tag_dir: tag/
+
 
 # Defaults
 defaults:
