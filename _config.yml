@@ -26,7 +26,7 @@ repository               : "satelliteheart/satelliteheart.github.io" # GitHub us
 teaser                   : "/assets/images/star.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 
 comments:
@@ -85,7 +85,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : G-F7REER75KS
     anonymize_ip         : true # true, false (default)
@@ -97,7 +97,7 @@ sidebar:
 author:
   name             : "satelliteheart29"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "공부하는 컴퓨터공학과 2학년"
+  bio              : "아직은 밤샘이 두렵지 않은 2학년"
   location         : Seoul, Korea
   email            : #
   links:
@@ -211,7 +211,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)

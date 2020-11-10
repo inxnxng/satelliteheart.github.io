@@ -1,6 +1,7 @@
 ---
 title: "studying"
-permalink: /studying/
-layout: posts
+permalink: /categories/studying/
+layout: category
 author_profile: true
+taxonomy: studying
 ---

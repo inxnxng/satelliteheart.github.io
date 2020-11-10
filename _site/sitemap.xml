@@ -6,7 +6,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/studying/cpp-programming-language/</loc>
+        <loc>http://localhost:4000/studying/cpp-char/</loc>
     </url>
     
 
@@ -14,7 +14,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/category/</loc>
+        <loc>http://localhost:4000/categories/</loc>
     </url>
     
     
@@ -22,7 +22,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/diary/</loc>
+        <loc>http://localhost:4000/categories/diary/</loc>
     </url>
     
     
@@ -76,7 +76,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/studying/</loc>
+        <loc>http://localhost:4000/categories/studying/</loc>
     </url>
     
     

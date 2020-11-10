@@ -1,6 +1,6 @@
 ---
-title: "Category"
-layout: category
-permalink: /category/
+title: "category"
+layout: categories
+permalink: /categories/
 author_profile: true
 ---
