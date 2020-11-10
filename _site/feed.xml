@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-10T19:37:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Satellite Mode</title><subtitle>This is my CS blog</subtitle><author><name>satelliteheart29</name></author><entry><title type="html">finally</title><link href="http://localhost:4000/diary/first-post/" rel="alternate" type="text/html" title="finally" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>http://localhost:4000/diary/first-post</id><content type="html" xml:base="http://localhost:4000/diary/first-post/">&lt;p&gt;github blog를 완성하였다. 저번에는 어려워서 포기했지만 이래저래 필요성을 느꼈기에 오늘 마음먹고 끝내버렸다. 아직 카테고리를 수정하지 못하지만 기말고사 끝나고 파일 올리면서 수정해보도록 해야겠다. 그보다 GEM이 제일 신기하다. 세상이 많이 발전했구나.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Satellite Mode</title>
+    <description>This is my CS blog</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 10 Nov 2020 20:41:48 +0900</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2020 20:41:48 +0900</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>finally</title>
+        <description>&lt;p&gt;github blog를 완성하였다. 저번에는 어려워서 포기했지만 이래저래 필요성을 느꼈기에 오늘 마음먹고 끝내버렸다. 아직 카테고리를 수정하지 못하지만 기말고사 끝나고 파일 올리면서 수정해보도록 해야겠다. 그보다 GEM이 제일 신기하다. 세상이 많이 발전했구나.&lt;/p&gt;
 
 &lt;h3 id=&quot;참고-링크&quot;&gt;참고 링크&lt;/h3&gt;
 
@@ -20,7 +33,20 @@
   &lt;li&gt;카테고리 수정&lt;/li&gt;
   &lt;li&gt;sitemap.xml 설정&lt;/li&gt;
   &lt;li&gt;이미지 파일 넣기 확인&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>satelliteheart29</name></author><category term="diary" /><summary type="html">github.io 만들기 완료</summary></entry><entry><title type="html">C++ : char 정리</title><link href="http://localhost:4000/category/cpp-programming-language/" rel="alternate" type="text/html" title="C++ : char 정리" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>http://localhost:4000/category/cpp-programming-language</id><content type="html" xml:base="http://localhost:4000/category/cpp-programming-language/">&lt;h1 id=&quot;char&quot;&gt;CHAR&lt;/h1&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 10 Nov 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/diary/first-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/diary/first-post/</guid>
+        
+        
+        <category>diary</category>
+        
+      </item>
+    
+      <item>
+        <title>C++ : char 정리</title>
+        <description>&lt;h1 id=&quot;char&quot;&gt;CHAR&lt;/h1&gt;
 
 &lt;h2 id=&quot;1&quot;&gt;1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://igotit.tistory.com/entry/char-const-char-char-const&quot;&gt;참조&lt;/a&gt;&lt;/p&gt;
@@ -121,4 +147,22 @@ char :&lt;/p&gt;
 &lt;p&gt;string :&lt;/p&gt;
 &lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;getline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
        &lt;span class=&quot;c1&quot;&gt;//위의 cin.getline과 비슷한 맥락, 그러나 최대 입력 가능 문자수를 입력하지 않아도 된다.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>satelliteheart29</name></author><category term="category" /><category term="programming" /><category term="cpp" /><category term="test" /><summary type="html">C++ : 헷갈리는 것 위주 정리</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 10 Nov 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/category/cpp-programming-language/</link>
+        <guid isPermaLink="true">http://localhost:4000/category/cpp-programming-language/</guid>
+        
+        <category>programming</category>
+        
+        <category>cpp</category>
+        
+        <category>test</category>
+        
+        
+        <category>category</category>
+        
+      </item>
+    
+  </channel>
+</rss>

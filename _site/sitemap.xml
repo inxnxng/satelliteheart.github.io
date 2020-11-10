@@ -1,42 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>http://localhost:4000/diary/first-post/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/category/cpp-programming-language/</loc>
+    </url>
+    
 
-
-<url>
-  <loc>https://satelliteheart.github.io/</loc>
-  <lastmod>2020-11-10T09:53:49+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://satelliteheart.github.io/diary/</loc>
-  <lastmod>2020-11-10T09:53:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://satelliteheart.github.io/category/</loc>
-  <lastmod>2020-11-10T09:53:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://satelliteheart.github.io/tag/</loc>
-  <lastmod>2020-11-10T09:53:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://satelliteheart.github.io/diary/first-post/</loc>
-  <lastmod>2020-11-10T09:53:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://satelliteheart.github.io/category/cpp-programming-language/</loc>
-  <lastmod>2020-11-10T09:53:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/category/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/diary/</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/assets/js/lunr/lunr-en.js</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/assets/js/lunr/lunr-gr.js</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/assets/js/lunr/lunr-store.js</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/tag/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/year-archive/</loc>
+    </url>
+    
+    
+    
 </urlset>
