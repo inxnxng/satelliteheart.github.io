@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-10T18:52:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Satellite Mode</title><subtitle>This is my CS blog</subtitle><author><name>satelliteheart29</name></author><entry><title type="html">finally</title><link href="http://localhost:4000/diary/first-post/" rel="alternate" type="text/html" title="finally" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>http://localhost:4000/diary/first-post</id><content type="html" xml:base="http://localhost:4000/diary/first-post/">&lt;p&gt;github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-10T19:37:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Satellite Mode</title><subtitle>This is my CS blog</subtitle><author><name>satelliteheart29</name></author><entry><title type="html">finally</title><link href="http://localhost:4000/diary/first-post/" rel="alternate" type="text/html" title="finally" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>http://localhost:4000/diary/first-post</id><content type="html" xml:base="http://localhost:4000/diary/first-post/">&lt;p&gt;github blog를 완성하였다. 저번에는 어려워서 포기했지만 이래저래 필요성을 느꼈기에 오늘 마음먹고 끝내버렸다. 아직 카테고리를 수정하지 못하지만 기말고사 끝나고 파일 올리면서 수정해보도록 해야겠다. 그보다 GEM이 제일 신기하다. 세상이 많이 발전했구나.&lt;/p&gt;
 
-&lt;p&gt;GEM이 신기하다.&lt;/p&gt;
-
-&lt;p&gt;참고 링크&lt;/p&gt;
+&lt;h3 id=&quot;참고-링크&quot;&gt;참고 링크&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -16,7 +14,13 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;앞으로 더 참고할만한 링크가 있으면 올리도록 해야겠다.&lt;/p&gt;</content><author><name>satelliteheart29</name></author><category term="diary" /><summary type="html">github blog를 완성하였다. 저번에는 어려워서 포기했지만 이번에는 포기하지 않았다는 점에서 스스로에게 박수를 쳐주고 싶다. 이제 고민해야 하는 것은 포스팅을 어떻게 하면 더 쉽게 할 수 있느냐 이다. 이렇게 매번 git을 통해 올리기는 귀찮은데..</summary></entry><entry><title type="html">C++ : char 정리</title><link href="http://localhost:4000/category/cpp-programming-language/" rel="alternate" type="text/html" title="C++ : char 정리" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>http://localhost:4000/category/cpp-programming-language</id><content type="html" xml:base="http://localhost:4000/category/cpp-programming-language/">&lt;h1 id=&quot;char&quot;&gt;CHAR&lt;/h1&gt;
+&lt;h3 id=&quot;수정해야-할-것들&quot;&gt;수정해야 할 것들&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;카테고리 수정&lt;/li&gt;
+  &lt;li&gt;sitemap.xml 설정&lt;/li&gt;
+  &lt;li&gt;이미지 파일 넣기 확인&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>satelliteheart29</name></author><category term="diary" /><summary type="html">github.io 만들기 완료</summary></entry><entry><title type="html">C++ : char 정리</title><link href="http://localhost:4000/category/cpp-programming-language/" rel="alternate" type="text/html" title="C++ : char 정리" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>http://localhost:4000/category/cpp-programming-language</id><content type="html" xml:base="http://localhost:4000/category/cpp-programming-language/">&lt;h1 id=&quot;char&quot;&gt;CHAR&lt;/h1&gt;
 
 &lt;h2 id=&quot;1&quot;&gt;1&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://igotit.tistory.com/entry/char-const-char-char-const&quot;&gt;참조&lt;/a&gt;&lt;/p&gt;
