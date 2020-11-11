@@ -85,6 +85,7 @@ GEM
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2020.4)
       tzinfo (>= 1.0.0)
+    wdm (0.1.1)
 
 PLATFORMS
   x64-mingw32
@@ -95,6 +96,7 @@ DEPENDENCIES
   minimal-mistakes-jekyll
   tzinfo
   tzinfo-data
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.1.4

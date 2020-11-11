@@ -18,7 +18,7 @@ locale                   : "en-US"
 title                    : "Satellite Mode"
 title_separator          : "-"
 subtitle                 : "Signals transmitted from satelliteheart29" # site tagline that appears below site title in masthead
-name                     : "Satelliteheart29"
+name                     : "satelliteheart29"
 description              : "This is my CS blog"
 url                      : "https://satelliteheart.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -53,7 +53,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : google  # lunr (default), algolia, google
+search_provider          :  lunr  # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -61,7 +61,7 @@ algolia:
   powered_by             : # true (default), false
 google:
   search_engine_id       :  # YOUR_SEARCH_ENGINE_ID
-  instant_search         : true # false (default), true
+  instant_search         :  # false (default), true
 # SEO Related
 google_site_verification :
 bing_site_verification   :

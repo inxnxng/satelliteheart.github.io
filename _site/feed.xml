@@ -5,9 +5,45 @@
     <description>This is my CS blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Nov 2020 01:44:11 +0900</pubDate>
-    <lastBuildDate>Wed, 11 Nov 2020 01:44:11 +0900</lastBuildDate>
+    <pubDate>Wed, 11 Nov 2020 13:24:06 +0900</pubDate>
+    <lastBuildDate>Wed, 11 Nov 2020 13:24:06 +0900</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>record</title>
+        <description>&lt;h3 id=&quot;1015&quot;&gt;1015&lt;/h3&gt;
+&lt;p&gt;말로만 듣던 푸라닭의 블랙 올리브 치킨을 시켜먹었다.&lt;/p&gt;
+
+&lt;p&gt;음식을 먹고 감동받은 게 되게 간만이였다. 너무 감동해서 다음 주에 또 시켜먹었는데 그 때도 맛있었다. 이제 좋은 일 있거나 힘든 일 있으면 이 치킨 시켜먹는걸로 약속.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/1015chicken.jpg&quot; alt=&quot;치킨&quot; width=&quot;100%&quot; height=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1023&quot;&gt;1023&lt;/h3&gt;
+&lt;p&gt;결국 먹었다. 빕스. 8월에 사놨었던 쿠폰을 코로나 때문에 이래저래 못쓰다가 사회적 거리두기 단계가 내려가서 쏠랑 갔다왔다.&lt;/p&gt;
+
+&lt;p&gt;레어로 주문해서 slice하기 힘들었지만 맛있었다. 진짜로 고기가 최고다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/meat.jpg&quot; alt=&quot;고기&quot; width=&quot;100%&quot; height=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1104&quot;&gt;1104&lt;/h3&gt;
+&lt;p&gt;며칠 전에 백만년만에 만난 윤아랑 먹은 우주 케이크.&lt;/p&gt;
+
+&lt;p&gt;이제는 엄청 맛있다고 느껴지지는 않지만 커피와 마시기에는 딱 좋다. 그리고 친구들에게 새로 추천해줄 때에도 이만큼 좋은 케이크가 없다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/cake.jpg&quot; alt=&quot;케이크&quot; width=&quot;100%&quot; height=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;다시 보니까 또 먹고싶다.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2020 10:47:20 +0900</pubDate>
+        <link>http://localhost:4000/diary/cake/</link>
+        <guid isPermaLink="true">http://localhost:4000/diary/cake/</guid>
+        
+        <category>food</category>
+        
+        
+        <category>diary</category>
+        
+      </item>
     
       <item>
         <title>finally</title>
