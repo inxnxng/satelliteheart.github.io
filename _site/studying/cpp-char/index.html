@@ -239,7 +239,7 @@
     
     
       <div class="author__bio" itemprop="description">
-        <p>아직은 밤샘이 두렵지 않은 2학년</p>
+        <p>컴퓨터공학과 2학년 말하는 감자</p>
 
       </div>
     
@@ -257,7 +257,7 @@
       
         
           
-            <li><a href="mailto:red131729@khu.ac.kr" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+            <li><a href="mailto:red131729@khu.ac.kr" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">E-mail</span></a></li>
           
         
           
@@ -430,7 +430,6 @@
       <li><a href="#1-pointer-선언">1 Pointer 선언</a></li>
       <li><a href="#2-pointer">2 Pointer</a></li>
       <li><a href="#3-char-vs-string">3 char vs string</a></li>
-      <li><a href="#test">test</a></li>
     </ul>
   </li>
 </ul>
@@ -544,41 +543,6 @@
     </ul>
   </li>
 </ol>
-
-<h2 id="test">test</h2>
-
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;string&gt;
-#include &lt;fstream&gt;
-</span><span class="k">typedef</span> <span class="kt">char</span> <span class="n">ItemType</span><span class="p">;</span>
-<span class="k">struct</span> <span class="nc">TreeNode</span><span class="p">;</span>
-<span class="cp">#include "QueType.h"
-</span><span class="k">enum</span> <span class="n">OrderType</span> <span class="p">{</span><span class="n">PRE_ORDER</span><span class="p">,</span> <span class="n">IN_ORDER</span><span class="p">,</span> <span class="n">POST_ORDER</span><span class="p">};</span>
-<span class="k">class</span> <span class="nc">TreeType</span>
-<span class="p">{</span>
-<span class="nl">public:</span>
-  <span class="n">TreeType</span><span class="p">();</span>                     <span class="c1">// constructor</span>
- <span class="o">~</span><span class="n">TreeType</span><span class="p">();</span>                    <span class="c1">// destructor</span>
-  <span class="n">TreeType</span><span class="p">(</span><span class="k">const</span> <span class="n">TreeType</span><span class="o">&amp;</span> <span class="n">originalTree</span><span class="p">);</span> 
-  <span class="kt">void</span> <span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="k">const</span> <span class="n">TreeType</span><span class="o">&amp;</span> <span class="n">originalTree</span><span class="p">);</span>
-  <span class="c1">// copy constructor</span>
-  <span class="kt">void</span> <span class="n">MakeEmpty</span><span class="p">();</span>
-  <span class="kt">bool</span> <span class="n">IsEmpty</span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
-  <span class="kt">bool</span> <span class="n">IsFull</span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
-  <span class="kt">int</span> <span class="n">LengthIs</span><span class="p">()</span> <span class="k">const</span><span class="p">;</span> 
-  <span class="kt">void</span> <span class="n">RetrieveItem</span><span class="p">(</span><span class="n">ItemType</span><span class="o">&amp;</span> <span class="n">item</span><span class="p">,</span> <span class="kt">bool</span><span class="o">&amp;</span> <span class="n">found</span><span class="p">);</span>
-  <span class="kt">void</span> <span class="n">InsertItem</span><span class="p">(</span><span class="n">ItemType</span> <span class="n">item</span><span class="p">);</span>
-  <span class="kt">void</span> <span class="n">DeleteItem</span><span class="p">(</span><span class="n">ItemType</span> <span class="n">item</span><span class="p">);</span>
-  <span class="kt">void</span> <span class="n">ResetTree</span><span class="p">(</span><span class="n">OrderType</span> <span class="n">order</span><span class="p">);</span> 
-  <span class="kt">void</span> <span class="n">GetNextItem</span> <span class="p">(</span><span class="n">ItemType</span><span class="o">&amp;</span> <span class="n">item</span><span class="p">,</span> <span class="n">OrderType</span> <span class="n">order</span><span class="p">,</span> 
-       <span class="kt">bool</span><span class="o">&amp;</span> <span class="n">finished</span><span class="p">);</span>
-  <span class="kt">void</span> <span class="n">Print</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">ofstream</span><span class="o">&amp;</span> <span class="n">outFile</span><span class="p">)</span> <span class="k">const</span><span class="p">;</span>
-<span class="nl">private:</span>
-  <span class="n">TreeNode</span><span class="o">*</span> <span class="n">root</span><span class="p">;</span>
-  <span class="n">QueType</span> <span class="n">preQue</span><span class="p">;</span>
-  <span class="n">QueType</span> <span class="n">inQue</span><span class="p">;</span>
-  <span class="n">QueType</span> <span class="n">postQue</span><span class="p">;</span>
-<span class="p">};</span>
-</code></pre></div></div>
 
 <hr />
 

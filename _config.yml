@@ -53,7 +53,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          :  lunr  # lunr (default), algolia, google
+search_provider          : lunr  # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -97,11 +97,11 @@ sidebar:
 author:
   name             : "satelliteheart29"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "아직은 밤샘이 두렵지 않은 2학년"
+  bio              : "컴퓨터공학과 2학년 말하는 감자"
   location         : Seoul, Korea
   email            : #
   links:
-    - label: "Email"
+    - label: "E-mail"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:red131729@khu.ac.kr"
     - label: "Website"
@@ -192,6 +192,7 @@ incremental: false
 kramdown:
   input: GFM
   syntax_hightlighter: rouge
+  coderay_wrap : true
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
