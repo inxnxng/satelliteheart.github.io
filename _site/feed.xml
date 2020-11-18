@@ -5,8 +5,8 @@
     <description>This is my CS blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Nov 2020 01:08:37 +0900</pubDate>
-    <lastBuildDate>Thu, 19 Nov 2020 01:08:37 +0900</lastBuildDate>
+    <pubDate>Thu, 19 Nov 2020 01:18:01 +0900</pubDate>
+    <lastBuildDate>Thu, 19 Nov 2020 01:18:01 +0900</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -39,63 +39,6 @@
         <guid isPermaLink="true">http://localhost:4000/diary/cake/</guid>
         
         <category>food</category>
-        
-        
-        <category>diary</category>
-        
-      </item>
-    
-      <item>
-        <title>finally</title>
-        <description>&lt;p&gt;github blog를 완성하였다. 저번에는 어려워서 포기했지만 이래저래 필요성을 느꼈기에 오늘 마음먹고 끝내버렸다. 아직 카테고리를 수정하지 못하지만 기말고사 끝나고 파일 올리면서 수정해보도록 해야겠다. 그보다 GEM이 제일 신기하다. 세상이 많이 발전했구나.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout : post&lt;/code&gt; -&amp;gt; post, page 중 하나를 넣어 이것이 한 페이지에 속하는 블로그 포스트인지, 홈페이지를 구성하는 하나의 큰 페이지인지를 결정한다.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;categories : articles&lt;/code&gt; -&amp;gt; 어느 페이지에 속하는지를 표시한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;참고-링크&quot;&gt;참고 링크&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://pnurep.github.io/blogging/github-page-minimal-mistakes/#&quot;&gt;minimal mistakes를 이용해 page 만들기&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://hahafamilia.github.io/howto/jekyll-github-mistakes-blog/&quot;&gt;CSS - SCSS 관련 설정하기&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://danggai.github.io/tags/#minimal-mistakes&quot;&gt;프로필 관련 설정&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://djkeh.github.io/articles/Hangul-test-jekyll-tips-kor/&quot;&gt;md 앞에 넣어줘야 하는 정보&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://moon9342.github.io/jekyll-rouge&quot;&gt;코드 블록 - rouge 테마 바꾸기&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;수정해야-할-것들&quot;&gt;수정해야 할 것들&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1110
-    &lt;ul class=&quot;task-list&quot;&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;카테고리 수정&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;sitemap.xml 설정&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;이미지 파일 넣기 확인&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;1113
-    &lt;ul class=&quot;task-list&quot;&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;이미지 크기 조정, 폰트 더 줄이기&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;code block 테마&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;카테고리 더 추가하기&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;태그 관련된 페이지 추가하기&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;글쓰기 틀 만들기 -&amp;gt; &amp;lt;/br&amp;gt; 이거 작동안함&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 10 Nov 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/diary/finally/</link>
-        <guid isPermaLink="true">http://localhost:4000/diary/finally/</guid>
         
         
         <category>diary</category>

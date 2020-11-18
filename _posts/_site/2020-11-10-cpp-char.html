@@ -1,45 +1,41 @@
 <h1 id="char">CHAR</h1>
 
-<h2 id="1">1</h2>
-<p>https://igotit.tistory.com/entry/char-const-char-char-const</p>
+<h2 id="1-pointer-선언">1 Pointer 선언</h2>
 
 <ul>
-  <li>char* v;
+  <li><code class="language-plaintext highlighter-rouge">char* v;</code>
     <ul>
       <li>v는 문자, 문자열이 저장된 메모리의 첫 주소를 저장할 수 있는 포인터 변수</li>
-      <li>char* v = “문자열 상수 1”; 초기화 했어도 코드 중에는 언제든 변경 가능</li>
+      <li><code class="language-plaintext highlighter-rouge">char* v = "문자열 상수 1";</code> 초기화 했어도 코드 중에는 언제든 변경 가능</li>
     </ul>
   </li>
-  <li>const char* v;
+  <li><code class="language-plaintext highlighter-rouge">const char* v;</code>
     <ul>
       <li>v는 다시 문자열이 저장된 메모리의 첫주소를 저장할 수 있는 포인터 변수. <strong>v 주소 메모리의 내용은 변경 불가</strong> 즉 v는 <strong>상수 문자열의 포인터변수</strong></li>
       <li>const의 대상이 v자체가 아니므로 v가 가리키는 주소는 변경 가능함</li>
-      <li>const char* v = “문자열 상수 1”;로 초기화함. 이 때, v = “문자열 상수 2”; 는 가능 // *v = “문자열 상수 2”는 불가능. 이건 v 주소 메모리의 값을 변경하려 한 것이므로</li>
+      <li><code class="language-plaintext highlighter-rouge">const char* v = "문자열 상수 1";</code>로 초기화함. 이 때, <code class="language-plaintext highlighter-rouge">v = "문자열 상수 2";</code> 는 가능 하지만 <code class="language-plaintext highlighter-rouge">*v = "문자열 상수 2";</code>는 불가능. 이건 v 주소 메모리의 값을 변경하려 한 것이므로.</li>
     </ul>
   </li>
-  <li>char* const v;
+  <li><code class="language-plaintext highlighter-rouge">char* const v;</code>
     <ul>
       <li>v는 문자열이 저장된 메모리의 첫주소를 저장할 수 있는 포인터 변수</li>
       <li>초기화할 때 한번 지정된 문자열 메모리 주소 변경 못함.</li>
-      <li>char* const v = “문자열 상수1”;로 초기화 했을 때, v = “문자열 상수2”는 불가능하단 소리임</li>
+      <li><code class="language-plaintext highlighter-rouge">char* const v = "문자열 상수1";</code>로 초기화 했을 때, <code class="language-plaintext highlighter-rouge">v = "문자열 상수2";</code>는 불가능하단 소리임</li>
     </ul>
   </li>
 </ul>
 
-<h2 id="2">2</h2>
-<p><a href="https://m.blog.naver.com/jsky10503/221131378623">참고1</a></p>
-
-<p><a href="https://m.blog.naver.com/jsky10503/221133942782">참고2</a></p>
-
-<p><a href="https://m.blog.naver.com/jsky10503/221134770777">참고3</a></p>
+<h2 id="2-pointer">2 Pointer</h2>
 
 <p>char형 포인터(문자열 표현 방법)</p>
 
-<p><code class="language-plaintext highlighter-rouge">char str[20] = "Good Morning!";</code> 이는 배열을 기반으로 하는 변수 형태의 문자열 선언. 변수라고 하는 이유는 문자열의 일부를 변경할 수 있기 때문. 문자열 전체를 저장하는 배열.
-[G][o]…[!][\0]</p>
+<p><code class="language-plaintext highlighter-rouge">char str[20] = "Good Morning!";</code> 이는 배열을 기반으로 하는 변수 형태의 문자열 선언. 변수라고 하는 이유는 문자열의 일부를 변경할 수 있기 때문. 문자열 전체를 저장하는 배열.</p>
 
-<p><code class="language-plaintext highlighter-rouge">char* str2 = "This is string";</code>으로도 선언 가능. 이는 포인터를 기반으로 문자열을 선언한 것. 이렇게 선언하면 메모리 공간에 문자열 This is string이 저장되고 문자열의 첫번째 문자 T의 주소값이 반환된다. 그리고 이 반환 값은 포인터 변수 str2에 저장된다.
-<strong>char형 포인터로 선언하면 첫번째 문자의 주소값이 저장된다</strong></p>
+<p>[G][o]…[!][\0]</p>
+
+<p><code class="language-plaintext highlighter-rouge">char* str2 = "This is string";</code>으로도 선언 가능. 이는 포인터를 기반으로 문자열을 선언한 것. 이렇게 선언하면 메모리 공간에 문자열 This is string이 저장되고 문자열의 첫번째 문자 T의 주소값이 반환된다. 그리고 이 반환 값은 포인터 변수 str2에 저장된다.</p>
+
+<p><strong>char형 포인터로 선언하면 첫번째 문자의 주소값이 저장된다</strong></p>
 
 <p>str2—————&gt;[<strong>T</strong>his is string\0]</p>
 
@@ -70,36 +66,52 @@
 <p><code class="language-plaintext highlighter-rouge">char* strArr[3] = {"apple","banana","cinamon"};</code>으로 선언 시
 <code class="language-plaintext highlighter-rouge">strArr[1]</code>은 “banana”임.</p>
 
-<h2 id="3">3</h2>
-<p><a href="https://mk28.tistory.com/127">참고</a></p>
+<h2 id="3-char-vs-string">3 char vs string</h2>
 
 <ol>
-  <li>
-    <p>생성
-char : char arr[size];
-string : string s;</p>
+  <li>생성
+    <ul>
+      <li>char : <code class="language-plaintext highlighter-rouge">char arr\[size\];</code></li>
+      <li>string : <code class="language-plaintext highlighter-rouge">string s;</code></li>
+    </ul>
   </li>
-  <li>
-    <p>표준 입력 받아오기
-char : 공백, 개행 무시. for문 돌려서 일일이 받아와도 되지만 배열 전체로 받아와도 된다
-string : 공백, 개행 무시 <code class="language-plaintext highlighter-rouge">#include &lt;string&gt;</code> 필요</p>
+  <li>표준 입력 받아오기
+    <ul>
+      <li>char : 공백, 개행 무시. for문 돌려서 일일이 받아와도 되지만 배열 전체로 받아와도 된다</li>
+      <li>string : 공백, 개행 무시 <code class="language-plaintext highlighter-rouge">#include &lt;string&gt;</code> 필요</li>
+    </ul>
   </li>
-  <li>
-    <p>문자열 개수
-char : strlen(const char*);    <code class="language-plaintext highlighter-rouge">int size = strlen(arr);</code>
-string : length();      <code class="language-plaintext highlighter-rouge">int size = s.length();</code></p>
+  <li>문자열 개수
+    <ul>
+      <li>char : <code class="language-plaintext highlighter-rouge">strlen(const char*);</code>, <code class="language-plaintext highlighter-rouge">int size = strlen(arr);</code></li>
+      <li>string : <code class="language-plaintext highlighter-rouge">length();</code>, <code class="language-plaintext highlighter-rouge">int size = s.length();</code></li>
+    </ul>
   </li>
-  <li>
-    <p>표준 입력 읽어오기
-char :</p>
-    <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">cin</span><span class="p">.</span><span class="n">getline</span><span class="p">(</span><span class="n">_Elem</span> <span class="o">*</span><span class="n">_Str</span><span class="p">,</span> <span class="n">streamsize</span> <span class="n">_count</span><span class="p">,</span> <span class="n">_Elem</span> <span class="n">_Delim</span> <span class="o">=</span> <span class="sc">'\n'</span><span class="p">)</span>
-         <span class="c1">//변수 주소, 최대 입력 가능 문자수, 종결 문자(default는 '\n')</span>
-<span class="n">cin</span><span class="p">.</span><span class="n">getline</span><span class="p">(</span><span class="n">arr</span><span class="p">,</span><span class="n">SIZE</span><span class="p">);</span>
-</code></pre></div>    </div>
+  <li>표준 입력 읽어오기
+    <ul>
+      <li>char :
+        <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="n">cin</span><span class="p">.</span><span class="n">getline</span><span class="p">(</span><span class="n">_Elem</span> <span class="o">*</span><span class="n">_Str</span><span class="p">,</span> <span class="n">streamsize</span> <span class="n">_count</span><span class="p">,</span> <span class="n">_Elem</span> <span class="n">_Delim</span> <span class="o">=</span> <span class="sc">'\n'</span><span class="p">)</span>
+              <span class="c1">//변수 주소, 최대 입력 가능 문자수, 종결 문자(default는 '\n')</span>
+  <span class="n">cin</span><span class="p">.</span><span class="n">getline</span><span class="p">(</span><span class="n">arr</span><span class="p">,</span><span class="n">SIZE</span><span class="p">);</span>
+</code></pre></div>        </div>
+      </li>
+      <li>string :
+        <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span><span class="n">s</span><span class="p">);</span>
+        <span class="c1">//위의 cin.getline과 비슷한 맥락</span>
+        <span class="c1">//그러나 최대 입력 가능 문자수를 입력하지 않아도 된다.</span>
+</code></pre></div>        </div>
+      </li>
+    </ul>
   </li>
 </ol>
 
-<p>string의 경우</p>
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span><span class="n">s</span><span class="p">);</span>
-       <span class="c1">//위의 cin.getline과 비슷한 맥락, 그러나 최대 입력 가능 문자수를 입력하지 않아도 된다.</span>
-</code></pre></div></div>
+<hr />
+
+<p>참고 사이트</p>
+<ol>
+  <li><a href="https://igotit.tistory.com/entry/char-const-char-char-const">https://igotit.tistory.com/entry/char-const-char-char-const</a></li>
+  <li><a href="https://m.blog.naver.com/jsky10503/221131378623">https://m.blog.naver.com/jsky10503/221131378623</a></li>
+  <li><a href="https://m.blog.naver.com/jsky10503/221133942782">https://m.blog.naver.com/jsky10503/221133942782</a></li>
+  <li><a href="https://m.blog.naver.com/jsky10503/221134770777">https://m.blog.naver.com/jsky10503/221134770777</a></li>
+  <li><a href="https://mk28.tistory.com/127">https://mk28.tistory.com/127</a></li>
+</ol>

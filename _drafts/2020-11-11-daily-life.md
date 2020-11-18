@@ -1,8 +1,10 @@
 ---
 title: "daily life"
 excerpt: "며칠 동안 겪은 일기"
-date: 2020-11-11 23:41:25
+date: 2020-11-19 01:10:30
 latest : 
+tags:
+  - 걱정
 categories:
   - diary
 comments : true
@@ -20,3 +22,10 @@ hyper-V 설정 후 이더넷이 브랜치 되어 작업 관리자에 Wi-Fi가 �
 한번씩 다 죽여봤다.
 
 ![네트워크](assets/images/posts/networklist.png)
+
+### 1119
+
+내가 하고 싶은 게 뭘까? 남들보다 많이 뒤쳐지고 있는 것 같은데 어떻게 따라잡지?
+항상 욕심만 가득한 상태인가?
+
+바쁘다 바빠

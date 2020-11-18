@@ -5,12 +5,6 @@ var store = [{
         "url": "http://localhost:4000/studying/cpp-char/",
         "teaser": "http://localhost:4000/assets/images/star.jpg"
       },{
-        "title": "finally",
-        "excerpt":"github blog를 완성하였다. 저번에는 어려워서 포기했지만 이래저래 필요성을 느꼈기에 오늘 마음먹고 끝내버렸다. 아직 카테고리를 수정하지 못하지만 기말고사 끝나고 파일 올리면서 수정해보도록 해야겠다. 그보다 GEM이 제일 신기하다. 세상이 많이 발전했구나.   layout : post -&gt; post, page 중 하나를 넣어 이것이 한 페이지에 속하는 블로그 포스트인지, 홈페이지를 구성하는 하나의 큰 페이지인지를 결정한다. categories : articles -&gt; 어느 페이지에 속하는지를 표시한다.   참고 링크           minimal mistakes를 이용해 page 만들기            CSS - SCSS 관련 설정하기            프로필 관련 설정            md 앞에 넣어줘야 하는 정보            코드 블록 - rouge 테마 바꾸기       수정해야 할 것들      1110            카테고리 수정       sitemap.xml 설정       이미지 파일 넣기 확인           1113            이미지 크기 조정, 폰트 더 줄이기       code block 테마       카테고리 더 추가하기       태그 관련된 페이지 추가하기       글쓰기 틀 만들기 -&gt; &lt;/br&gt; 이거 작동안함          ","categories": ["diary"],
-        "tags": [],
-        "url": "http://localhost:4000/diary/finally/",
-        "teaser": "http://localhost:4000/assets/images/star.jpg"
-      },{
         "title": "record",
         "excerpt":"1015  말로만 듣던 푸라닭의 블랙 올리브 치킨을 시켜먹었다.   음식을 먹고 감동받은 게 되게 간만이였다. 너무 감동해서 다음 주에 또 시켜먹었는데 그 때도 맛있었다. 이제 좋은 일 있거나 힘든 일 있으면 이 치킨 시켜먹는걸로 약속.      1023  결국 먹었다. 빕스. 8월에 사놨었던 쿠폰을 코로나 때문에 이래저래 못쓰다가 사회적 거리두기 단계가 내려가서 쏠랑 갔다왔다.   레어로 주문해서 slice하기 힘들었지만 맛있었다. 진짜로 고기가 최고다.      1104  며칠 전, 백만년만에 만난 윤아랑 먹은 우주 케이크.   이제는 엄청 맛있다고 느껴지지는 않지만 커피와 마시기에는 딱 좋다. 그리고 친구들에게 새로 추천해줄 때에도 이만큼 좋은 케이크가 없다.      다시 보니까 또 먹고싶다.  ","categories": ["diary"],
         "tags": ["food"],
