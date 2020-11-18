@@ -1,14 +1,21 @@
 # main links
 main :
-  - title : diary
-    url : /categories/diary/
   - title : studying
     url : /categories/studying/
-  - title: "Category"
+  - title : algorithm
+    url : /categories/studying/algorithm
+  - title : diary
+    url : /categories/diary/  
+  - title: "category"
     url: /categories/
 
+# 프로필 아래의 list
 docs:
-  - title : LIFE 
+  - title: "category"
+    url: /categories/
+  - title: "tag"
+    url: /tags-archive/
+  - title : LIFE
     children: 
       - title: "diary"
         url: /categories/diary/
@@ -16,3 +23,7 @@ docs:
     children:  
       - title: "studying"
         url: /categories/studying/
+      - title : algorithm
+        url : /categories/studying/algorithm
+
+        
