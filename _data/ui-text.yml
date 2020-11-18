@@ -1,5 +1,7 @@
 # User interface text and labels
 
+breadcrumb_separator  : "/" # User interface text and labels
+
 # English (default)
 # -----------------
 en: &DEFAULT_EN

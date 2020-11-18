@@ -60,8 +60,8 @@ algolia:
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       :  # YOUR_SEARCH_ENGINE_ID
-  instant_search         :  # false (default), true
+  search_engine_id       :  4c09f367cf7ebd25c
+  instant_search         :  true
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -97,7 +97,7 @@ sidebar:
 author:
   name             : "satelliteheart29"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "컴퓨터공학과 2학년 말하는 감자"
+  bio              : "컴퓨터공학과 2학년 말하는 감자 | 이것저것 해보는 중..✨"
   location         : Seoul, Korea
   email            : #
   links:
