@@ -87,7 +87,7 @@ social:
 analytics:
   provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-F7REER75KS
+    tracking_id          : GTM-P9QG4JS
     anonymize_ip         : true # true, false (default)
 
 sidebar:
@@ -97,7 +97,7 @@ sidebar:
 author:
   name             : "satelliteheart29"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "컴퓨터공학과 2학년 말하는 감자 | 이것저것 해보는 중..✨"
+  bio              : "컴퓨터공학과 2학년 말하는 감자\n이것저것 해보는 중..✨"
   location         : Seoul, Korea
   email            : #
   links:
