@@ -53,14 +53,14 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : lunr  # lunr (default), algolia, google
+search_provider          : "lunr"  # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       :  4c09f367cf7ebd25c
+  search_engine_id       :  "4c09f367cf7ebd25c"
   instant_search         :  true
 # SEO Related
 google_site_verification :
@@ -85,9 +85,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-74KSQ3JQ3H
+    tracking_id          : "G-74KSQ3JQ3H"
     anonymize_ip         : true # true, false (default)
 
 
@@ -98,7 +98,7 @@ sidebar:
 author:
   name             : "satelliteheart29"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "컴퓨터공학과 2학년 말하는 감자\n이것저것 해보는 중..✨"
+  bio              : "컴퓨터공학과 2학년 말하는 감자 \n\n이것저것 해보는 중..✨"
   location         : Seoul, Korea
   email            : #
   links:
@@ -213,7 +213,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
