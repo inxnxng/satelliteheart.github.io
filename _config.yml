@@ -98,8 +98,8 @@ sidebar:
 author:
   name             : "satelliteheart29"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "컴퓨터공학과 2학년 말하는 감자 \n\n이것저것 해보는 중..✨"
-  location         : Seoul, Korea
+  bio              : "컴퓨터공학과 2학년 말하는 감자..✨"
+  location         : # Seoul, Korea
   email            : #
   links:
     - label: "E-mail"
@@ -119,7 +119,7 @@ author:
       url: "https://github.com/satelliteheart"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/satelliteheart29"
+      # url: "https://instagram.com/satelliteheart29"
 
 # Site Footer
 footer:

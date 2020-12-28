@@ -2,28 +2,31 @@
 main :
   - title : studying
     url : /categories/studying/
-  - title : algorithm
-    url : /categories/studying/algorithm
-  - title : diary
-    url : /categories/diary/  
-  - title: "category"
+
+  - title : CSE
+    url : /categories/cse/
+  - title: category
     url: /categories/
 
 # 프로필 아래의 list
 docs:
   - title: "category"
     url: /categories/
-  - title: "tag"
-    url: /tags-archive/
-  - title : LIFE
+  - title: "diary"
+    url: /categories/diary/
+  - title : studying
     children: 
-      - title: "diary"
-        url: /categories/diary/
-  - title : CS
+      - title: Algorithm
+        url: /categories/studying/algorithm
+      - title: Machine Learning
+        url: /categories/studying/ml
+  - title : CSE
     children:  
-      - title: "studying"
-        url: /categories/studying/
-      - title : algorithm
-        url : /categories/studying/algorithm
+      - title: DataCenter Programming
+        url: /categories/cse/dcp
+      - title : Computer Network
+        url : /categories/cse/cn
+      - title : Computer Architecture
+        url : /categories/cse/ca
 
         
