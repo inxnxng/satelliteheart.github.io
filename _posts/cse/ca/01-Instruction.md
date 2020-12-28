@@ -2,7 +2,7 @@
 title:  "[컴구]Lecture 01 - Instruction"
 excerpt: "컴퓨터구조 Lecture 01 - Instruction"
 categories:
-  - ca
+  - cse/ca
 tags:
   - [컴퓨터구조]
 toc: true
@@ -10,9 +10,9 @@ toc: true
 date: 2020-12-28
 ---
 
-# Lecture 01 - Instruction
+[Notion Link](https://www.notion.so/Lecture-01-Instruction-418b8cc456774ea7bbb5a7464b1c3903)
 
-[Notion link](https://www.notion.so/Lecture-01-Instruction-418b8cc456774ea7bbb5a7464b1c3903)
+# Lecture 01 - Instruction
 
 ### Why Computer Organization
 
