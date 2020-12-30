@@ -1,7 +1,6 @@
 ---
-title: "Tag"
-permalink: /tags-archive/
+title: "Posts by Tag"
+permalink: /tags/
+layout: tags
 author_profile: true
-layout: posts
-taxonomy: tag
 ---

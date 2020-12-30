@@ -1,8 +1,7 @@
 ---
 title:  "javascript 정리"
 excerpt: "2020 여름 방학 때 공부했었던 javascript 정리"
-categories:
-  - studying
+categories: studying
 tags:
   - [javascript]
 toc: true
